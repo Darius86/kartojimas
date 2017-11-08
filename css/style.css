@@ -1,62 +1,94 @@
-html,body{
-    height: 100%;
-}
-body{
-    background-color: gray;
-    margin:0;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    padding: 20px;
-}
-.container table th{
-    padding: 10px;
-}
-table,tr,th{
-    border-width: 1px;
-    border-color: rgba(22,14,21,0.93);
-    border-style: solid;
-}
-.container .table-head{
-    background-color: darkgrey ;
-    color: white;
-    font-size: 14px;
+/* line 2, D:/darius/kartojimas/kartojimas/scss/style.scss */
+html, body {
+  height: 100%;
 }
 
-.container table{
-    border-collapse: collapse;
-    width: 100%;
+/* line 6, D:/darius/kartojimas/kartojimas/scss/style.scss */
+body {
+  margin: 0;
+  background-color: #c0c0c0;
+}
 
+/* line 11, D:/darius/kartojimas/kartojimas/scss/style.scss */
+table, tr, td, th {
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
 }
-.container.table-footer td{
-    padding: 10px;
+
+/* line 18, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 20px;
 }
-.container.table-footer#total-text{
-    font-size: 18px;
+
+/* line 26, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container table {
+  width: 100%;
 }
-.container.table-footer#total-text{
-    font-size: 18px;
-    padding-right: 15px;
+
+/* line 29, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container table th {
+  padding: 10px;
 }
-.container tbody tr:hover{
-    background-color: burlywood;
+
+/* line 34, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container .table-head {
+  background-color: #a9a9a9;
+  color: #ffffff;
+  font-size: 14px;
 }
-.container.table-body td{
-    padding: 5px;
+
+/* line 42, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container .table-body tr:nth-child(2n) {
+  background-color: #f5f5dc;
 }
-.container .table-body tr:nth-child(2n){
-    background-color: aquamarine;
+
+/* line 45, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container .table-body tr:hover {
+  background-color: #dcdcdc;
 }
-.text-center{
-    text-align: center;
+
+/* line 50, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container .table-body td {
+  padding: 5px;
 }
-.text-right{
-    text-align: right;
+
+/* line 56, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container .table-footer td {
+  padding: 10px;
 }
-.text-left{
-    text-align:left;
+
+/* line 60, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container .table-footer #total-text {
+  font-size: 18px;
+  padding-right: 15px;
 }
+
+/* line 65, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.container .table-footer #total {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 73, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 77, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 81, D:/darius/kartojimas/kartojimas/scss/style.scss */
+.text-left {
+  text-align: left;
+}
+
+/*# sourceMappingURL=../css/style.map */
